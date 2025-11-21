@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: check out code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: install yamllint
       run: pip install yamllint
